@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> functii anonime</h1>
+
+    <script>
+//o metoda de a defini functii anonime
+        let myVar = function(){
+            console.log('Salut');
+
+        }
+        console.log(typeof myVar);
+        myVar();
+
+//alta metoda de a defini functii definite
+
+        (function(){
+            console.log('Buna ziua!');
+        })();
+
+        (function(a,b){
+            console.log(a + b)
+        })(3,7);
+
+    </script>
+</body>
+</html>
